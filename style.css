@@ -1,0 +1,86 @@
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: fantasy;
+    color: skyblue;
+    text-shadow: -2px 0 gold, 0 2px gold, 2px 0 gold, 0 -2px gold;
+}
+
+hr {
+    width: 400px;
+    height: 10px;
+    background-color: gold;
+}
+ 
+.board {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    border: 1px solid gold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    cursor: pointer;
+    font-size: 175px;
+}
+
+#restartButton {
+    text-align: center;
+    font-size: larger;
+}
+
+.strike {
+    position: relative;
+    background-color: darkblue;
+}
+.strike-row-1{
+    width:70%;
+    height: 5px;
+    top: 290px;
+}
+.strike-row-2{
+    width:70%;
+    height: 5px;
+    top: 490px;
+}
+.strike-row-3{
+    width:70%;
+    height: 5px;
+    top: 690px;
+}
+.strike-column-1{
+    width: 5px;
+    height: 50%;
+    left: 220px;
+}
+.strike-column-2{
+    width: 5px;
+    height: 50%;
+    left: 420px;
+}
+.strike-column-3{
+    width: 5px;
+    height: 50%;
+    left: 20vw;
+}
